@@ -2,7 +2,7 @@ body {
     background-color: #121212;
     color: #e0e0e0;
     font-family: 'Arial', sans-serif;
-    margin: 0;
+    margin: 50px;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -58,4 +58,29 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="tel"] {
+    border-radius: 4px;
+}
+
+button {
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:active {
+    background-color: #3700b3;
+    transform: scale(0.98);
+}
+
+footer {
+    font-size: 14px;
 }
